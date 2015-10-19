@@ -580,6 +580,15 @@ body {
 .food-image.mod-dinner {
     background-image: url("images/food-dinner.png")
 }
+.food-image.mod-shooting {
+    background-image: url("images/edition-shooting.jpg")
+}
+.food-image.mod-impact {
+    background-image: url("images/food-dinner.png")
+}
+.food-image.mod-speed {
+    background-image: url("images/food-dinner.png")
+}
 @media screen and (min-width: 750px) {
     .food-image {
         display: block;
