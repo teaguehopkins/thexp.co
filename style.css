@@ -584,10 +584,10 @@ body {
     background-image: url("images/edition-shooting.jpg")
 }
 .food-image.mod-impact {
-    background-image: url("images/food-dinner.png")
+    background-image: url("images/edition-impact.jpg")
 }
 .food-image.mod-speed {
-    background-image: url("images/food-dinner.png")
+    background-image: url("images/edition-speed.jpg")
 }
 @media screen and (min-width: 750px) {
     .food-image {
