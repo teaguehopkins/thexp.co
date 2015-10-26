@@ -563,6 +563,43 @@ body {
         height: 33px;
         background-color: #4D4D4D
     }
+    .food-block-2 {
+        position: relative;
+        min-height: 500px;
+        width: 250px;
+        margin: 0 auto 90px auto;
+        background-color: #050505
+    }
+    @media screen and (min-width: 750px) {
+        .food-block-2 {
+            min-height: 500px;
+            width: auto;
+        }
+    }
+    @media screen and (min-width: 1025px) {
+        .food-block-2 {
+            min-height: 500px;
+        }
+    }
+    .food-block-2::before {
+        content: "";
+        position: absolute;
+        top: -60px;
+        left: 50%;
+        width: 1px;
+        height: 33px;
+        background-color: #4D4D4D
+    }
+    @media screen and (min-width: 750px) {
+        .food-block-2::after {
+            content: "";
+            position: absolute;
+            bottom: -60px;
+            left: 50%;
+            width: 1px;
+            height: 33px;
+            background-color: #4D4D4D
+        }
 }
 .food-image {
     width: 250px;
